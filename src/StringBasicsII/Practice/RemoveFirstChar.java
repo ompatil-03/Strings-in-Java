@@ -7,8 +7,8 @@ public class RemoveFirstChar {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter a String:");
         String s1=s.nextLine();
-//        System.out.println("The modified string is :\n"+removeFirst(s1));
-        System.out.println("The string after removing last char: "+s1.substring(0,s1.length()-1));
+      // System.out.println("The modified string is :\n"+removeFirst(s1));
+       System.out.println("The string after removing last char: "+s1.substring(0,s1.length()-1));
     }
 
     private static String removeFirst(String s1) {
