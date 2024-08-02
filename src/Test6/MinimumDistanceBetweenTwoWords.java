@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class MinimumDistanceBetweenTwoWords {
     public static void main(String[] args) {
-
         String [] arr={"geeks", "for", "geeks", "contribute",  "practice"};
         Scanner s=new Scanner(System.in);
         System.out.println("Enter a first word :");
@@ -21,9 +20,7 @@ public class MinimumDistanceBetweenTwoWords {
                 num2=i;
                 count++;
             }
-
         }
         System.out.println("The minimum distance is :"+(num2-num1));
-
     }
 }

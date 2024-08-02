@@ -1,5 +1,6 @@
 package AssignmentIII;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CountOfWord {
@@ -7,6 +8,7 @@ public class CountOfWord {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter String: ");
         String str=s.nextLine();
+        str=str.toLowerCase();
         StringBuffer sb=new StringBuffer();
         String[] arr=str.split(" ");
         for (int i = 0; i < arr.length; i++) {
